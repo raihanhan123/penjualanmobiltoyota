@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
 
 # Coba load model (pastikan model.h5 ada di direktori yang sama)
 try:
