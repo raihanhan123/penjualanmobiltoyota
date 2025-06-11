@@ -1,16 +1,10 @@
-# ===============================
-# Sebelum menjalankan file ini, pastikan Flask sudah terinstal:
-# Jalankan di terminal/command prompt:
-# >>> pip install flask
-# ===============================
-
 from flask import Flask, render_template, request
 import numpy as np
 from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
 
-# Muat model yang telah dilatih
+# Muat model yang telah dilatih (pastikan file model.h5 ada di folder yang sama)
 model = load_model('model.h5')
 
 @app.route('/')
