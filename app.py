@@ -1,3 +1,9 @@
+# ===============================
+# Sebelum menjalankan file ini, pastikan Flask sudah terinstal:
+# Jalankan di terminal/command prompt:
+# >>> pip install flask
+# ===============================
+
 from flask import Flask, render_template, request
 import numpy as np
 from tensorflow.keras.models import load_model
