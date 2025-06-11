@@ -1,4 +1,6 @@
 streamlit
+tensorflow
+tensorflow-gpu
 numpy
 scikit-learn
 joblib
