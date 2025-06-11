@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-
+import tensorflow as tf
 # Coba load model (pastikan model.h5 ada di direktori yang sama)
 try:
     model = tf.keras.models.load_model('model.h5')
